@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CIU | Student Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            text-align: center;
+            padding: 30px;
+        }
+        .navbar {
+            background-color: #8c1b1b;
+            padding: 10px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .dashboard-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+            max-width: 600px;
+            margin: 50px auto;
+            text-align: left;
+        }
+        .dashboard-box h2 {
+            color: #8c1b1b;
+        }
+        .dashboard-box img {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="grades.html">Grades</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="student-info.html">Student Info</a>
+        <a href="login.html">Logout</a>
+    </div>
+
+    <div class="dashboard-box">
+        <img src="logo.png" alt="CIU Logo">
+        <h2>Welcome, Muhammad Younes</h2>
+        <p><strong>Status:</strong> Active Student</p>
+        <p><strong>Faculty:</strong> Dentistry</p>
+        <p><strong>University:</strong> Caucasus International University</p>
+        <p><strong>GPA:</strong> 2.90</p>
+        <p><strong>Student ID:</strong> LR2545978</p>
+    </div>
+</body>
+</html>
