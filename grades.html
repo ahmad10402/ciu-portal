@@ -1,25 +1,77 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Grades</title>
-    <style>
-        body { font-family: Arial; background: #f3f3f3; padding: 20px; text-align: center; }
-        table { border-collapse: collapse; width: 90%; margin: auto; background: white; box-shadow: 0 0 10px #ccc; }
-        th, td { border: 1px solid #ccc; padding: 10px; }
-        th { background: #8c1b1b; color: white; }
-    </style>
+  <meta charset="UTF-8" />
+  <title>CIU | Grades</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f3f3;
+      padding: 30px;
+      text-align: center;
+    }
+    .grades-box {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+      max-width: 600px;
+      margin: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #8c1b1b;
+      color: white;
+    }
+  </style>
 </head>
 <body>
+  <div class="grades-box">
     <h2>Student Grades</h2>
+    <p><strong>Name:</strong> Muhammad Younes</p>
+    <p><strong>Student ID:</strong> LR2545978</p>
+
     <table>
-        <tr><th>Course Code</th><th>Course Name</th><th>Credit Hours</th><th>Midterm</th><th>Final</th><th>Total</th></tr>
-        <tr><td>DEN101</td><td>Dental Anatomy</td><td>3</td><td>85</td><td>88</td><td>87</td></tr>
-        <tr><td>BIO102</td><td>Biology</td><td>3</td><td>78</td><td>80</td><td>79</td></tr>
-        <tr><td>CHEM103</td><td>Chemistry</td><td>3</td><td>88</td><td>91</td><td>90</td></tr>
-        <tr><td>PHY104</td><td>Physics</td><td>3</td><td>74</td><td>76</td><td>75</td></tr>
-        <tr><td>MED105</td><td>Medical Terminology</td><td>2</td><td>90</td><td>94</td><td>92</td></tr>
+      <tr>
+        <th>Subject</th>
+        <th>Credits</th>
+        <th>Grade</th>
+      </tr>
+      <tr>
+        <td>Anatomy I</td>
+        <td>5</td>
+        <td>B+</td>
+      </tr>
+      <tr>
+        <td>Histology</td>
+        <td>4</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>Dental Morphology</td>
+        <td>3</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>Biochemistry</td>
+        <td>4</td>
+        <td>C+</td>
+      </tr>
+      <tr>
+        <td>Physiology</td>
+        <td>4</td>
+        <td>B</td>
+      </tr>
     </table>
+  </div>
 </body>
 </html>
