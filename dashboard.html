@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Student Dashboard - CIU</title>
+  <title>CIU | Student Dashboard</title>
   <style>
     body {
-      font-family: Arial;
+      font-family: Arial, sans-serif;
+      background: #f3f3f3;
+      margin: 0;
+      padding: 20px;
       text-align: center;
-      padding-top: 50px;
-      background-color: #f3f3f3;
     }
-    img {
+    img.logo {
       width: 150px;
+      margin-top: 20px;
     }
     .data-box {
       display: inline-block;
@@ -20,12 +22,27 @@
       padding: 30px;
       border-radius: 10px;
       box-shadow: 0 0 10px #ccc;
-      margin-top: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+    }
+    .data-box h2 {
+      color: #990000;
+      margin-top: 0;
+    }
+    .data-box p {
+      margin: 8px 0;
+      font-size: 16px;
+    }
+    .data-box p strong {
+      width: 120px;
+      display: inline-block;
     }
   </style>
 </head>
 <body>
-  <img src="logo.png" alt="CIU Logo">
+  <!-- تأكد أن لديك ملف logo.png في نفس المجلد -->
+  <img src="logo.png" alt="CIU Logo" class="logo">
+
   <div class="data-box">
     <h2>Welcome, Muhammad Younes</h2>
     <p><strong>Status:</strong> Active Student</p>
