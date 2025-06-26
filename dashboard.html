@@ -1,66 +1,42 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>CIU | Student Dashboard</title>
-  <style>
-    body {<div class="navbar">
-  <a href="dashboard.html">Dashboard</a>
-  <a href="grades.html">Grades</a>
-  <a href="schedule.html">Schedule</a>
-</div>
-      font-family: Arial, sans-serif;
-      background: #f3f3f3;
-      margin: 0;
-      padding: 20px;
-      text-align: center;
-    }
-    img.logo {
-      width: 150px;
-      margin-top: 20px;
-    }
-    .data-box {
-      display: inline-block;
-      text-align: left;
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #ccc;
-      margin: 20px auto;
-      max-width: 400px;
-    }
-    .data-box h2 {
-      color: #990000;
-      margin-top: 0;
-    }
-    .data-box p {
-      margin: 8px 0;
-      font-size: 16px;
-    }
-    .data-box p strong {
-      width: 120px;
-      display: inline-block;
-    }
-  </style>.navbar {
-  background-color: #8c1b1b;
-  padding: 10px;
-  text-align: center;
-}
-.navbar a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-}
-.navbar a:hover {
-  text-decoration: underline;
-}
+  
+<style>
+  body { font-family: Arial; background: #f3f3f3; padding: 30px; text-align: center; }
+  .navbar { background-color: #8c1b1b; padding: 10px; text-align: center; margin-bottom: 20px; }
+  .navbar a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+  .navbar a:hover { text-decoration: underline; }
+  .content-box {
+    background: white; padding: 30px; border-radius: 10px;
+    box-shadow: 0 0 10px #ccc; max-width: 700px; margin: auto;
+  }
+  table {
+    width: 100%; border-collapse: collapse; margin-top: 20px;
+  }
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  th, td {
+    padding: 10px;
+  }
+</style>
+
 </head>
 <body>
-  <!-- تأكد أن لديك ملف logo.png في نفس المجلد -->
-  <img src="logo.png" alt="CIU Logo" class="logo">
+  
+<div class="navbar">
+  <a href="dashboard.html">Dashboard</a> |
+  <a href="grades.html">Grades</a> |
+  <a href="schedule.html">Schedule</a> |
+  <a href="student-info.html">Student Info</a> |
+  <a href="login.html">Logout</a>
+</div>
 
-  <div class="data-box">
+  <div class="content-box">
     <h2>Welcome, Muhammad Younes</h2>
     <p><strong>Status:</strong> Active Student</p>
     <p><strong>Faculty:</strong> Dentistry</p>
