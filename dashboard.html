@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <title>CIU | Student Dashboard</title>
   <style>
-    body {
+    body {<div class="navbar">
+  <a href="dashboard.html">Dashboard</a>
+  <a href="grades.html">Grades</a>
+  <a href="schedule.html">Schedule</a>
+</div>
       font-family: Arial, sans-serif;
       background: #f3f3f3;
       margin: 0;
@@ -37,7 +41,20 @@
       width: 120px;
       display: inline-block;
     }
-  </style>
+  </style>.navbar {
+  background-color: #8c1b1b;
+  padding: 10px;
+  text-align: center;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
 </head>
 <body>
   <!-- تأكد أن لديك ملف logo.png في نفس المجلد -->
